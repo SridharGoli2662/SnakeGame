@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gamecontainer {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background: linear-gradient(green, black);
+    width: 95vmin;
+    height: 95vmin;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+
+.head {
+    background-color: red;
+}
+
+.food {
+    background-color: yellow;
+}
+
+.body {
+    background-color: blue;
+}
+
+#scoree {
+    position: absolute;
+    left: 76%;
+    top: 14%;
+}
+
+#highscorebox {
+    position: absolute;
+    left: 76%;
+    top: 19%;
+}
